@@ -1,0 +1,56 @@
+div{
+    
+}
+body{
+    display:block;
+    color:black;
+    background-color:purple;
+}
+#head{
+    width:90%;
+    position:relative;
+    height:10em;
+    border:.5em black solid;
+    border-radius:30px;
+    text-align:center;
+    background-color:white;
+    margin:auto;
+    background-color:gold;
+}
+#headWrap{
+    position:absolute;
+    width:100%;
+    margin:auto;
+    font-size:2em;
+    height:100%;
+    top:0;bottom:0;right:0;left:0;
+}
+#toolbar{
+    position:relative;
+    margin-top:1em;
+    margin-right:auto;
+    margin-left:auto;
+    width:90%;
+    height:100%;
+    border:.4em gray solid;
+    border-radius:30px;
+    background-color:lightgray;
+    text-align:center;
+}
+#toolbar ul {
+    padding: 8px 0px;
+    margin: 0px;
+    list-style:none;
+    list-style-type:none;
+}
+#toolbar li{
+    padding-right:3em;
+    padding-left:3em;
+    display:inline;
+    font-weight:bold;
+    font-size:1.3em;
+    top:0;bottom:0;right:0;left:0;
+}
+#toolbar li:hover{
+    color:white;
+}
